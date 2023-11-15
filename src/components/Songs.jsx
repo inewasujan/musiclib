@@ -9,12 +9,12 @@ const chunkArray = (array, size) => {
     );
 };
 
-const chunkedData = chunkArray(data, 5);
+const chunkedData = chunkArray(data, 3);
 
 return (
     <>
         <div className="album-info">
-            <h3>Best New Songs</h3>
+            <h3>Australia's Favourite </h3>
             <h3 className="link">
                 <a href="#">See All</a>
             </h3>

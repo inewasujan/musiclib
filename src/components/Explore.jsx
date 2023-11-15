@@ -4,26 +4,16 @@ export default function Explore() {
         <div>
             <h3>More to Explore</h3>
             <div className="explore-lists">
-                <ul>
-                    <li>
-                        <a href="#">Browse by Category</a>
-                    </li>
-                    <li>
-                        <a href="#">First Nations</a>
-                    </li>
-                    <li>
-                        <a href="#">Kids</a>
-                    </li>
-                    <li>
-                        <a href="#">Charts</a>
-                    </li>
-                    <li>
-                        <a href="#">Essentials</a>
-                    </li>
-                    <li>
-                        <a href="#">Music Videos</a>
-                    </li>
-                </ul>
+                <div className="explore-row">
+                    <a href="#">First Nations</a>
+                    <a href="#">Essentials</a>
+                    <a href="#">Music Videos</a>
+                </div>
+                <div className="explore-row">
+                    <a href="#">Kids</a>
+                    <a href="#">Charts</a>
+                    <a href="#">Top 10</a>
+                </div>
             </div>
         </div>
     )
