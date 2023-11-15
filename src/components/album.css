@@ -1,6 +1,31 @@
-.album-info{
+.album{
     display: flex;
+    
+}
+.album-info{
+    display:flex;
     justify-content: space-between;
+    align-items: center;
+}
+.random{
+    display: flex;
+    gap: 5px;
+    /* overflow: hidden; */
+}
+
+.random-container{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.random-image {
+    widht: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
 }
 
 .link {
@@ -8,6 +33,8 @@
     font-size: 12px;
     font-weight: bold;
     text-align: right;
+    text-decoration: none;
+    
 }
 .random-title {
     font-size: 12px;
@@ -20,13 +47,4 @@
     font-weight: normal;
     color: #777;
     text-align: left;
-}
-.Random {
-    display: flex;
-}
-
-.random-image {
-    widht: 100%;
-    height: 150px;
-    padding-right: 10px;
 }

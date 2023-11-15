@@ -1,9 +1,7 @@
-import SLine from './SLine'
 import './main.css'
 export default function Explore() {
     return (
         <div>
-            <SLine />
             <h3>More to Explore</h3>
             <div className="explore-lists">
                 <ul>
