@@ -3,17 +3,17 @@ import './main.css';
 const data = [
     {
         "id": "1",
-        "info": "Hot Right Now",
-        "title": "Sarangi",
-        "artist": "Sushant KC",
-        "image": "https://source.unsplash.com/random/?sarangi,violin,violinist,violin-player"
+        "info": "NEW ALBUM + READ THE INTERVIEW",
+        "title": "THE HARDEST LOVE",
+        "artist": "DEAN LEWIS",
+        "image": "https://source.unsplash.com/random/?INTERVIEW,HARDEST,LOVE,DEAN,LEWIS"
     },
     {
         "id": "2",
-        "info": "Today's Choice",
-        "title": "She is a women",
-        "artist": "Billy Jeans",
-        "image": "https://source.unsplash.com/random/?music"
+        "info": "FEATURED PLAYLIST",
+        "title": "DANCE POP HITS",
+        "artist": "APPLE MUSIC DANCE",
+        "image": "https://source.unsplash.com/random/?dance,pop,hits,apple,music"
     }
 ]
 export default function Main() {

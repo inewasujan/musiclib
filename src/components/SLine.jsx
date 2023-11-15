@@ -3,8 +3,11 @@ export default function SLine() {
     <>
       <div className="">
         <hr style={{
-          backgroundColor: '#ccc', 
-          height: 0.5,       
+          color: '#777',
+          margin: '10px',
+          marginLeft: '0px',
+          marginBottom: '5px',
+          marginTop: '15px',
           }}/>
       </div>  
     </>

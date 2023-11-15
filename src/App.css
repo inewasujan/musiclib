@@ -1,5 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&display=swap');
-.app{
+.my-app{
     font-family: 'Poppins', sans-serif;
-    widht:200px;
+    margin: 0 auto;
+    width: 960px;
 }
+@media screen and (max-width: 960px){
+    .my-app{
+        width: 100%;
+    }
+}
+
+.app-text{
+    margin-bottom: 0;
+}
+

@@ -73,8 +73,8 @@ function App() {
 
   return (
     <>
-      <div className="app">
-        <h2>Browse</h2> 
+      <div className="my-app">        
+        <h2 className="app-text">Browse</h2> 
         <SLine />
         <Main />
         <SLine />
@@ -83,6 +83,7 @@ function App() {
         <MainComp title="Celebrating Aus Music Month" data={data2} />
         <SLine />
         <Songs />
+        <SLine />
         <Explore />        
       </div>  
     </>
