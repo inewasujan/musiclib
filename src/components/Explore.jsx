@@ -10,7 +10,7 @@ export default function Explore() {
                     <a href="#">Music Videos</a>
                 </div>
                 <div className="explore-row">
-                    <a href="#">Kids</a>
+                    <a href="/">Kids</a>
                     <a href="#">Charts</a>
                     <a href="#">Top 10</a>
                 </div>
